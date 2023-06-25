@@ -16,13 +16,13 @@ fieldset
 {
     max-width: 400px;
     border-color: aqua;
-    border-radius: 5px;
+    border-radius: 9px;
     color: #fff;
     padding:40px;	
     margin: 20px;
 }
 legend{
-    font-size: 1.2rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: 600;
 }
