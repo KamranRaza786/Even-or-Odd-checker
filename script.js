@@ -1,33 +1,17 @@
 <script type="module">
-      const isPrime = (num) => {
-        if (num < 2) return false;
-
-        for (let i = 2; i <= num / 2; i++) {
-          if (num % i === 0) return false;
+        function evenAndodd (event) {
+            event.preventDefault();
+            let userInput = +document.querySelector(`#userInput`).value;
+            if (userInput % 2 == 0) { 
+                document.querySelector(`#result`).innerHTML = "The Number is Even";
+            }else{
+                document.querySelector(`#result`).innerHTML = "The Number is Odd";
+            }
         }
-        return true;
-      };
-
-      const form = document.querySelector("#myForm");
-
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-
-        const output = document.querySelector("#output");
-        const userInput = +document.querySelector("#numberInput").value;
-
-        if (!userInput || isNaN(userInput)) {
-          output.textContent = "Unknown Error";
-          return;
+        function resetInput(){
+            document.querySelector(`#userInput`).value = '';
+            document.querySelector(`#result`).innerHTML = '';
         }
-
-        if (String(userInput).length > 11) {
-          output.textContent = "Input limit exceeded";
-          return;
-        }
-
-        output.textContent = `The number ${userInput} is ${userInput % 2 === 0 ? "Even" : "Odd"}`;
-
-        output.textContent += ` and this is also a ${isPrime(userInput) ? "Prime" : "Composite"} number.`;
-      });
+        document.addEventListener(`submit`, evenAndodd);
+        document.querySelector(`#resetButton`).addEventListener('click', resetInput);
     </script>
