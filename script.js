@@ -1,2 +1,2 @@
 let firstName = "Salam"
-alert (firstName)
+alert(firstName)
