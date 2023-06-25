@@ -3,9 +3,9 @@
             event.preventDefault();
             let userInput = +document.querySelector(`#userInput`).value;
             if (userInput % 2 == 0)  
-                document.querySelector(`#result`).innerHTML = "The Number is Even";
+                document.querySelector(`#result`).innerHTML = "Provided Numer is Even";
             {"}"}else
-                document.querySelector(`#result`).innerHTML = "The Number is Odd";
+                document.querySelector(`#result`).innerHTML = "Provided Numer is Odd";
             {"}"}
         {"}"}
         function resetInput()
