@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Even and Odd</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,29 +14,12 @@
     <br><br>
     <input type="number" required id="userInput">
     <br><br>
-    <button type="submit" id="button1">Click Here</button>
+    <button type="submit" id="button1">Check result</button>
     <button type="button" id="resetButton">Reset</button>
 
 </form>
 <h2 id="result"></h2>
 </fieldset>
 
-    <script type="module">
-        function evenAndodd (event) {
-            event.preventDefault();
-            let userInput = +document.querySelector(`#userInput`).value;
-            if (userInput % 2 == 0) { 
-                document.querySelector(`#result`).innerHTML = "The Number is Even";
-            }else{
-                document.querySelector(`#result`).innerHTML = "The Number is Odd";
-            }
-        }
-        function resetInput(){
-            document.querySelector(`#userInput`).value = '';
-            document.querySelector(`#result`).innerHTML = '';
-        }
-        document.addEventListener(`submit`, evenAndodd);
-        document.querySelector(`#resetButton`).addEventListener('click', resetInput);
-    </script>
 </body>
 </html>
