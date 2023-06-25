@@ -62,9 +62,9 @@ form #userInput{
     cursor: pointer;
 }
 #result{
-    letter-spacing: 6px;
+    letter-spacing: 2px;
     padding-top: 10px;
-    margin: 5px 10px;
+    margin: 5px 0px;
     text-align: center;
     font-weight: 600;
 }
