@@ -1,5 +1,5 @@
 <script type="module">
-        function evenAndodd (event)
+        function evenAndodd (event) {
             event.preventDefault();
             let userInput = +document.querySelector(`#userInput`).value;
             if (userInput % 2 == 0) { 
@@ -7,8 +7,8 @@
             }else{
                 document.querySelector(`#result`).innerHTML = "The Number is Odd";
             }
-        function resetInput()
-        {
+        }
+        function resetInput(){
             document.querySelector(`#userInput`).value = '';
             document.querySelector(`#result`).innerHTML = '';
         }

@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     background: rgb(69, 179, 19);
-    background: linear-gradient(90deg, rgb(19, 16, 68) 0%, rgb(25, 25, 78) 35%, rgb(45, 118, 138) 91%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgb(19, 16, 68) 0%, rgb(45, 118, 138) 91%, rgb(45, 118, 138) 91%, rgba(0,212,255,1) 100%);
 }
 fieldset
 {
