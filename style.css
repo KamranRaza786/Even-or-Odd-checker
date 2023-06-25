@@ -75,8 +75,8 @@ h2{
 }
 
 img{
-   size: 5%, 5%;
-   align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
  
