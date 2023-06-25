@@ -75,9 +75,9 @@ h2{
 }
 
 img{
-    display: flex;
+    display: flexbox;
     size: 100px, 100px;
-    align-items: center;
+    
 }
 
  
