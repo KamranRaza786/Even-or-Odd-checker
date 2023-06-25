@@ -14,5 +14,4 @@
         {"}"}
         document.addEventListener(`submit`, evenAndodd);
         document.querySelector(`#resetButton`).addEventListener('click', resetInput);
-        alert (#result)
-        </script>
+    </script>
