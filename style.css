@@ -40,7 +40,7 @@ form #userInput{
 #button1{
     background-color: #fff;
     border: none;
-    color: #6fbd0a;
+    color: #090f01;
     padding: 10px 15px;
     margin: 4px 2px;
     text-align: center;
@@ -52,7 +52,7 @@ form #userInput{
 #resetButton{
     background-color: #fff;
     border: none;
-    color: #6fbd0a;
+    color: #090f01;
     padding: 10px 15px;
     margin: 4px 2px;
     text-align: center;
@@ -62,7 +62,7 @@ form #userInput{
     cursor: pointer;
 }
 #result{
-    letter-spacing: 2px;
+    letter-spacing: 6px;
     padding-top: 10px;
     margin: 5px 0px;
     text-align: center;
