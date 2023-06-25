@@ -66,12 +66,12 @@ form #userInput{
     padding-top: 10px;
     margin: 5px 0px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 300;
 }
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
-    color: black;
+    color: rgb(71, 6, 6);
 }
 
 img{
