@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(1,184,236,1) 91%, rgba(0,212,255,1) 100%);
+}
+fieldset
+{
+    max-width: 400px;
+    border-color: aqua;
+    border-radius: 5px;
+    color: #fff;
+    padding:40px;	
+    margin: 20px;
+}
+legend{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+form{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+form #userInput{
+    width: 100px;
+    padding: 10px 5px;
+    margin: 8px 0px;
+    border-radius: 4px;
+}
+#button1{
+    background-color: #fff;
+    border: none;
+    color: #0A6EBD;
+    padding: 10px 15px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#resetButton{
+    background-color: #fff;
+    border: none;
+    color: #0A6EBD;
+    padding: 10px 15px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#result{
+    letter-spacing: 2px;
+    padding-top: 10px;
+    margin: 5px 0px;
+    text-align: center;
+    font-weight: 600;
+}
+ 
