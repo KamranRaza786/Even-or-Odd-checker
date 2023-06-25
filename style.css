@@ -74,4 +74,9 @@ h2{
     color: black;
 }
 
+img{
+    display: flex;
+    size: 100px, 100px;
+}
+
  
